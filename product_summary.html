@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bootshop online Shopping cart</title>
+    <title>Mero's Store HN</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -35,173 +35,189 @@
 <div id="header">
 <div class="container">
 <div id="welcomeLine" class="row">
-	<div class="span6">Welcome!<strong> User</strong></div>
+	<div class="span6"><strong> BIENVENIDO!	</strong></div>
 	<div class="span6">
 	<div class="pull-right">
-		<a href="product_summary.html"><span class="">Fr</span></a>
-		<a href="product_summary.html"><span class="">Es</span></a>
-		<span class="btn btn-mini">En</span>
-		<a href="product_summary.html"><span>&pound;</span></a>
-		<span class="btn btn-mini">$155.00</span>
-		<a href="product_summary.html"><span class="">$</span></a>
-		<a href="product_summary.html"><span class="btn btn-mini btn-primary"><i class="icon-shopping-cart icon-white"></i> [ 3 ] Itemes in your cart </span> </a> 
+		<a href="product_summary.html"><span class="btn btn-mini btn-primary"><i class="icon-shopping-cart icon-white"></i> [ 3 ] Carrito de Compras </span> </a> 
 	</div>
-	</div>
+	</div>  
 </div>
 <!-- Navbar ================================================== -->
 <div id="logoArea" class="navbar">
-<a id="smallScreen" data-target="#topMenu" data-toggle="collapse" class="btn btn-navbar">
-	<span class="icon-bar"></span>
-	<span class="icon-bar"></span>
-	<span class="icon-bar"></span>
-</a>
-  <div class="navbar-inner">
-    <a class="brand" href="index.html"><img src="themes/images/logo.png" alt="Bootsshop"/></a>
-		<form class="form-inline navbar-search" method="post" action="products.html" >
-		<input id="srchFld" class="srchTxt" type="text" />
-		  <select class="srchTxt">
-			<option>All</option>
-			<option>CLOTHES </option>
-			<option>FOOD AND BEVERAGES </option>
-			<option>HEALTH & BEAUTY </option>
-			<option>SPORTS & LEISURE </option>
-			<option>BOOKS & ENTERTAINMENTS </option>
-		</select> 
-		  <button type="submit" id="submitButton" class="btn btn-primary">Go</button>
-    </form>
-    <ul id="topMenu" class="nav pull-right">
-	 <li class=""><a href="special_offer.html">Specials Offer</a></li>
-	 <li class=""><a href="normal.html">Delivery</a></li>
-	 <li class=""><a href="contact.html">Contact</a></li>
-	 <li class="">
-	 <a href="#login" role="button" data-toggle="modal" style="padding-right:0"><span class="btn btn-large btn-success">Login</span></a>
-	<div id="login" class="modal hide fade in" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="false" >
-		  <div class="modal-header">
-			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">�</button>
-			<h3>Login Block</h3>
-		  </div>
-		  <div class="modal-body">
-			<form class="form-horizontal loginFrm">
-			  <div class="control-group">								
-				<input type="text" id="inputEmail" placeholder="Email">
-			  </div>
-			  <div class="control-group">
-				<input type="password" id="inputPassword" placeholder="Password">
-			  </div>
-			  <div class="control-group">
-				<label class="checkbox">
-				<input type="checkbox"> Remember me
-				</label>
-			  </div>
-			</form>		
-			<button type="submit" class="btn btn-success">Sign in</button>
-			<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-		  </div>
+	<a id="smallScreen" data-target="#topMenu" data-toggle="collapse" class="btn btn-navbar">
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	</a>
+		<div class="navbar-inner">
+			<a class="brand" href="index.html"><img src="themes/images/mero.png" alt="Bootsshop"/></a>
+			<form class="form-inline navbar-search" method="post" action="products.html" >
+		 		<input id="srchFld" class="srchTxt" type="text" />
+		  		<select class="srchTxt">
+					<option>Todas las Categorias</option>
+					<option>Mujeres </option>
+					<option>Hombres</option>
+					<option>Niños</option>
+					<option>Electronicos </option>
+					<option>Zapatos </option>
+				</select> 
+		 		 <button type="submit" id="submitButton" class="btn btn-primary">Buscar</button>
+    		</form>
+			<ul id="topMenu" class="nav pull-right">
+<!-- Botones		 -->
+		 <li class=""><a href="login.html">Mi Cuenta</a></li>
+		 <li class=""><a href="login.html">Mis Ordenes</a></li>
+		 <li class=""><a href="contact.html">Contactanos</a></li>
+		 <li class="">
+		 <a href="#login" role="button" data-toggle="modal" style="padding-right:0"><span class="btn btn-large btn-success">Iniciar Sesion</span></a>
+		<div id="login" class="modal hide fade in" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="false" >
+				<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+				<h3>Iniciar Sesion</h3>
+				</div>
+				<div class="modal-body">
+				<form class="form-horizontal loginFrm">
+					<div class="control-group">								
+					<input type="text" id="inputEmail" placeholder="Correo">
+					</div>
+					<div class="control-group">
+					<input type="password" id="inputPassword" placeholder="Contraseña">
+					</div>
+					<div class="control-group">
+					<label class="checkbox">
+					<input type="checkbox"> Recordarme
+					</label>
+					</div>
+				</form>		
+				<button type="submit" class="btn btn-success">Iniciar Sesion</button>
+				<button class="btn" data-dismiss="modal" aria-hidden="true">Cerrar</button>
+				</div>
+		</div>
+		</li>
+			</ul>
+		</div>
 	</div>
-	</li>
-    </ul>
-  </div>
-</div>
-</div>
-</div>
+	</div>
+	</div>
 <!-- Header End====================================================================== -->
+
 <div id="mainBody">
 	<div class="container">
 	<div class="row">
 <!-- Sidebar ================================================== -->
-	<div id="sidebar" class="span3">
-		<div class="well well-small"><a id="myCart" href="product_summary.html"><img src="themes/images/ico-cart.png" alt="cart">3 Items in your cart  <span class="badge badge-warning pull-right">$155.00</span></a></div>
-		<ul id="sideManu" class="nav nav-tabs nav-stacked">
-			<li class="subMenu open"><a> ELECTRONICS [230]</a>
-				<ul>
-				<li><a class="active" href="products.html"><i class="icon-chevron-right"></i>Cameras (100) </a></li>
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Computers, Tablets & laptop (30)</a></li>
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Mobile Phone (80)</a></li>
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Sound & Vision (15)</a></li>
-				</ul>
-			</li>
-			<li class="subMenu"><a> CLOTHES [840] </a>
+<div id="sidebar" class="span3">
+	<div class="well well-small"><a id="myCart" href="product_summary.html"><img src="themes/images/ico-cart.png" alt="cart">3 Carrito de compras <span class="badge badge-warning pull-right">L 3000.00</span></a></div>
+	<ul id="sideManu" class="nav nav-tabs nav-stacked">
+		<li class="subMenu open"><a> ARTICULOS </a>
 			<ul style="display:none">
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Women's Clothing (45)</a></li>
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Women's Shoes (8)</a></li>												
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Women's Hand Bags (5)</a></li>	
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Men's Clothings  (45)</a></li>
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Men's Shoes (6)</a></li>												
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Kids Clothing (5)</a></li>												
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Kids Shoes (3)</a></li>												
+			<li><a class="active" href="products.html"><i class="icon-chevron-right"></i>Cameras  </a></li>
+			<li><a href="products.html"><i class="icon-chevron-right"></i>Computadoras,Tablets</a></li>
+			<li><a href="products.html"><i class="icon-chevron-right"></i>Telefonos</a></li>
+			<li><a href="products.html"><i class="icon-chevron-right"></i>Televisores</a></li>
 			</ul>
-			</li>
-			<li class="subMenu"><a>FOOD AND BEVERAGES [1000]</a>
-				<ul style="display:none">
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Angoves  (35)</a></li>
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Bouchard Aine & Fils (8)</a></li>												
-				<li><a href="products.html"><i class="icon-chevron-right"></i>French Rabbit (5)</a></li>	
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Louis Bernard  (45)</a></li>
-				<li><a href="products.html"><i class="icon-chevron-right"></i>BIB Wine (Bag in Box) (8)</a></li>												
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Other Liquors & Wine (5)</a></li>												
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Garden (3)</a></li>												
-				<li><a href="products.html"><i class="icon-chevron-right"></i>Khao Shong (11)</a></li>												
-			</ul>
-			</li>
-			<li><a href="products.html">HEALTH & BEAUTY [18]</a></li>
-			<li><a href="products.html">SPORTS & LEISURE [58]</a></li>
-			<li><a href="products.html">BOOKS & ENTERTAINMENTS [14]</a></li>
+		</li>
+		<li class="subMenu"><a> LENTES </a>
+		<ul style="display:none">
+		
+			<li><a href="products.html"><i class="icon-chevron-right"></i>Armani</a></li>	
+			<li><a href="products.html"><i class="icon-chevron-right"></i>Gucci</a></li>												
+			<li><a href="products.html"><i class="icon-chevron-right"></i>Guess</a></li>	
+			<li><a href="products.html"><i class="icon-chevron-right"></i>Hackers</a></li>
+			<li><a href="products.html"><i class="icon-chevron-right"></i>Lacoste</a></li>																							
+			<li><a href="products.html"><i class="icon-chevron-right"></i>Polo Lauren</a></li>
+			<li><a href="products.html"><i class="icon-chevron-right"></i>Ray ban</a></li>		
+			<li><a href="products.html"><i class="icon-chevron-right"></i>Vogue</a></li>											
 		</ul>
-		<br/>
+		</li>
+		<li class="subMenu"><a>PULSERAS </a>
+			<ul style="display:none">
+
+			<li><a href="products.html"><i class="icon-chevron-right"></i>Ansuelo</a></li>
+			<li><a href="products.html"><i class="icon-chevron-right"></i>Best friends</a></li>
+			<li><a href="products.html"><i class="icon-chevron-right"></i>Buda</a></li>												
+			<li><a href="products.html"><i class="icon-chevron-right"></i>Buho</a></li>	
+			<li><a href="products.html"><i class="icon-chevron-right"></i>Jade</a></li>												
+			<li><a href="products.html"><i class="icon-chevron-right"></i>King</a></li>												
+			<li><a href="products.html"><i class="icon-chevron-right"></i>Marinera</a></li>												
+			<li><a href="products.html"><i class="icon-chevron-right"></i>Queen</a></li>
+			<li><a href="products.html"><i class="icon-chevron-right"></i>Rosa</a></li>													
+		</ul>
+		</li>
+		<li class="subMenu"><a>ROPA </a>
+			<ul style="display:none">
+
+			<li><a href="products.html"><i class="icon-chevron-right"></i>Calsoneta niño</a></li>
+			<li><a href="products.html"><i class="icon-chevron-right"></i>Camisa niño</a></li>	
+			<li><a href="products.html"><i class="icon-chevron-right"></i>Camisa hombre</a></li>	
+			<li><a href="products.html"><i class="icon-chevron-right"></i>Camisa mujer</a></li>																																	
+			<li><a href="products.html"><i class="icon-chevron-right"></i>Pantalon</a></li>
+			<li><a href="products.html"><i class="icon-chevron-right"></i>Short</a></li>		
+			<li><a href="products.html"><i class="icon-chevron-right"></i>Vestidos</a></li>	
+		</ul>
+		</li>
+		<li class="subMenu"><a>ZAPATOS </a>
+			<ul style="display:none">
+
+			<li><a href="products.html"><i class="icon-chevron-right"></i>Adidas</a></li>
+			<li><a href="products.html"><i class="icon-chevron-right"></i>Nike</a></li>	
+		</ul>
+		</li>
+	</ul>
+	<br/>
 		  <div class="thumbnail">
 			<img src="themes/images/products/panasonic.jpg" alt="Bootshop panasonoc New camera"/>
 			<div class="caption">
 			  <h5>Panasonic</h5>
-				<h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a></h4>
+				<h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Añadir <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">L 3000.00</a></h4>
 			</div>
 		  </div><br/>
 			<div class="thumbnail">
 				<img src="themes/images/products/kindle.png" title="Bootshop New Kindel" alt="Bootshop Kindel">
 				<div class="caption">
 				  <h5>Kindle</h5>
-				    <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a></h4>
+				    <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Añadir <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">L 3000.00</a></h4>
 				</div>
 			  </div><br/>
 			<div class="thumbnail">
 				<img src="themes/images/payment_methods.png" title="Bootshop Payment Methods" alt="Payments Methods">
 				<div class="caption">
-				  <h5>Payment Methods</h5>
+				  <h5>Formas de pago</h5>
 				</div>
 			  </div>
 	</div>
-<!-- Sidebar end=============================================== -->
-	<div class="span9">
+<!-- Sidebar end=============================================== -->	
+<div class="span9">
     <ul class="breadcrumb">
-		<li><a href="index.html">Home</a> <span class="divider">/</span></li>
-		<li class="active"> SHOPPING CART</li>
+		<li><a href="index.html">Inicio</a> <span class="divider">/</span></li>
+		<li class="active"> Carrito de Compra</li>
     </ul>
-	<h3>  SHOPPING CART [ <small>3 Item(s) </small>]<a href="products.html" class="btn btn-large pull-right"><i class="icon-arrow-left"></i> Continue Shopping </a></h3>	
+	<h3>  Carrito de Compras [ <small>3 articulos </small>]<a href="products.html" class="btn btn-large pull-right"><i class="icon-arrow-left"></i> Seguir Comprando </a></h3>	
 	<hr class="soft"/>
 	<table class="table table-bordered">
-		<tr><th> I AM ALREADY REGISTERED  </th></tr>
+		<tr><th> Ya estoy registrado  </th></tr>
 		 <tr> 
 		 <td>
 			<form class="form-horizontal">
 				<div class="control-group">
-				  <label class="control-label" for="inputUsername">Username</label>
+				  <label class="control-label" for="inputUsername">Correo</label>
 				  <div class="controls">
 					<input type="text" id="inputUsername" placeholder="Username">
 				  </div>
 				</div>
 				<div class="control-group">
-				  <label class="control-label" for="inputPassword1">Password</label>
+				  <label class="control-label" for="inputPassword1">Contraseña</label>
 				  <div class="controls">
 					<input type="password" id="inputPassword1" placeholder="Password">
 				  </div>
 				</div>
 				<div class="control-group">
 				  <div class="controls">
-					<button type="submit" class="btn">Sign in</button> OR <a href="register.html" class="btn">Register Now!</a>
+					<button type="submit" class="btn">Inicia Sesion</button> O <a href="register.html" class="btn">Registrate Ahora!</a>
 				  </div>
 				</div>
 				<div class="control-group">
 					<div class="controls">
-					  <a href="forgetpass.html" style="text-decoration:underline">Forgot password ?</a>
+					  <a href="forgetpass.html" style="text-decoration:underline">Olvidaste la contraseña ?</a>
 					</div>
 				</div>
 			</form>
@@ -212,19 +228,19 @@
 	<table class="table table-bordered">
               <thead>
                 <tr>
-                  <th>Product</th>
-                  <th>Description</th>
-                  <th>Quantity/Update</th>
-				  <th>Price</th>
-                  <th>Discount</th>
-                  <th>Tax</th>
+                  <th>Producto</th>
+                  <th>Descripcion</th>
+                  <th>Actualizar cantidades</th>
+				  <th>Precio</th>
+                  <th>Descuento</th>
+                  <th>Impuesto</th>
                   <th>Total</th>
 				</tr>
               </thead>
               <tbody>
                 <tr>
                   <td> <img width="60" src="themes/images/products/4.jpg" alt=""/></td>
-                  <td>MASSA AST<br/>Color : black, Material : metal</td>
+                  <td>MASSA AST<br/>Color : negro, Material : metal</td>
 				  <td>
 					<div class="input-append"><input class="span1" style="max-width:34px" placeholder="1" id="appendedInputButtons" size="16" type="text"><button class="btn" type="button"><i class="icon-minus"></i></button><button class="btn" type="button"><i class="icon-plus"></i></button><button class="btn btn-danger" type="button"><i class="icon-remove icon-white"></i></button>				</div>
 				  </td>
@@ -235,7 +251,7 @@
                 </tr>
 				<tr>
                   <td> <img width="60" src="themes/images/products/8.jpg" alt=""/></td>
-                  <td>MASSA AST<br/>Color : black, Material : metal</td>
+                  <td>MASSA AST<br/>Color : negro, Material : metal</td>
 				  <td>
 					<div class="input-append"><input class="span1" style="max-width:34px" placeholder="1"  size="16" type="text"><button class="btn" type="button"><i class="icon-minus"></i></button><button class="btn" type="button"><i class="icon-plus"></i></button><button class="btn btn-danger" type="button"><i class="icon-remove icon-white"></i></button>				</div>
 				  </td>
@@ -246,7 +262,7 @@
                 </tr>
 				<tr>
                   <td> <img width="60" src="themes/images/products/3.jpg" alt=""/></td>
-                  <td>MASSA AST<br/>Color : black, Material : metal</td>
+                  <td>MASSA AST<br/>Color : negro, Material : metal</td>
 				  <td>
 					<div class="input-append"><input class="span1" style="max-width:34px" placeholder="1"  size="16" type="text"><button class="btn" type="button"><i class="icon-minus"></i></button><button class="btn" type="button"><i class="icon-plus"></i></button><button class="btn btn-danger" type="button"><i class="icon-remove icon-white"></i></button>				</div>
 				  </td>
@@ -257,15 +273,15 @@
                 </tr>
 				
                 <tr>
-                  <td colspan="6" style="text-align:right">Total Price:	</td>
+                  <td colspan="6" style="text-align:right">Precio Total:	</td>
                   <td> $228.00</td>
                 </tr>
 				 <tr>
-                  <td colspan="6" style="text-align:right">Total Discount:	</td>
+                  <td colspan="6" style="text-align:right">Descuento Total:	</td>
                   <td> $50.00</td>
                 </tr>
                  <tr>
-                  <td colspan="6" style="text-align:right">Total Tax:	</td>
+                  <td colspan="6" style="text-align:right">Total Impuesto:	</td>
                   <td> $31.00</td>
                 </tr>
 				 <tr>
@@ -282,10 +298,10 @@
                   <td> 
 				<form class="form-horizontal">
 				<div class="control-group">
-				<label class="control-label"><strong> VOUCHERS CODE: </strong> </label>
+				<label class="control-label"><strong> Codigo Promocional: </strong> </label>
 				<div class="controls">
 				<input type="text" class="input-medium" placeholder="CODE">
-				<button type="submit" class="btn"> ADD </button>
+				<button type="submit" class="btn"> Agregar </button>
 				</div>
 				</div>
 				</form>
@@ -294,35 +310,9 @@
 				
 			</tbody>
 			</table>
-			
-			<table class="table table-bordered">
-			 <tr><th>ESTIMATE YOUR SHIPPING </th></tr>
-			 <tr> 
-			 <td>
-				<form class="form-horizontal">
-				  <div class="control-group">
-					<label class="control-label" for="inputCountry">Country </label>
-					<div class="controls">
-					  <input type="text" id="inputCountry" placeholder="Country">
-					</div>
-				  </div>
-				  <div class="control-group">
-					<label class="control-label" for="inputPost">Post Code/ Zipcode </label>
-					<div class="controls">
-					  <input type="text" id="inputPost" placeholder="Postcode">
-					</div>
-				  </div>
-				  <div class="control-group">
-					<div class="controls">
-					  <button type="submit" class="btn">ESTIMATE </button>
-					</div>
-				  </div>
-				</form>				  
-			  </td>
-			  </tr>
-            </table>		
-	<a href="products.html" class="btn btn-large"><i class="icon-arrow-left"></i> Continue Shopping </a>
-	<a href="login.html" class="btn btn-large pull-right">Next <i class="icon-arrow-right"></i></a>
+					
+	<a href="products.html" class="btn btn-large"><i class="icon-arrow-left"></i> Seguir Comprando </a>
+	<a href="login.html" class="btn btn-large pull-right">Completar compra <i class="icon-arrow-right"></i></a>
 	
 </div>
 </div></div>
@@ -333,37 +323,37 @@
 	<div class="container">
 		<div class="row">
 			<div class="span3">
-				<h5>ACCOUNT</h5>
-				<a href="login.html">YOUR ACCOUNT</a>
-				<a href="login.html">PERSONAL INFORMATION</a> 
+				<h5>Cuenta y Configuracion</h5>
+				<a href="login.html">Mi Cuenta</a>
+		<!--		<a href="login.html">PERSONAL INFORMATION</a> 
 				<a href="login.html">ADDRESSES</a> 
-				<a href="login.html">DISCOUNT</a>  
-				<a href="login.html">ORDER HISTORY</a>
+				<a href="login.html">DISCOUNT</a>-->  
+				<a href="login.html">Mis Ordenes</a>
 			 </div>
 			<div class="span3">
-				<h5>INFORMATION</h5>
-				<a href="contact.html">CONTACT</a>  
-				<a href="register.html">REGISTRATION</a>  
-				<a href="legal_notice.html">LEGAL NOTICE</a>  
-				<a href="tac.html">TERMS AND CONDITIONS</a> 
-				<a href="faq.html">FAQ</a>
+			    <h5>INFORMATION</h5>
+				<a href="contact.html">Contactanos</a>  
+				<a href="register.html">Registro</a>  
+				<a href="legal_notice.html">Legal</a>  
+				<a href="tac.html">Condiciones y Terminos</a> 
+				<a href="faq.html">Preguntas Frequentes</a>
 			 </div>
 			<div class="span3">
-				<h5>OUR OFFERS</h5>
+			<!--<h5>OUR OFFERS</h5>
 				<a href="#">NEW PRODUCTS</a> 
 				<a href="#">TOP SELLERS</a>  
 				<a href="special_offer.html">SPECIAL OFFERS</a>  
 				<a href="#">MANUFACTURERS</a> 
-				<a href="#">SUPPLIERS</a> 
+				<a href="#">SUPPLIERS</a>--> 
 			 </div>
 			<div id="socialMedia" class="span3 pull-right">
-				<h5>SOCIAL MEDIA </h5>
-				<a href="#"><img width="60" height="60" src="themes/images/facebook.png" title="facebook" alt="facebook"/></a>
-				<a href="#"><img width="60" height="60" src="themes/images/twitter.png" title="twitter" alt="twitter"/></a>
-				<a href="#"><img width="60" height="60" src="themes/images/youtube.png" title="youtube" alt="youtube"/></a>
+				<h5>Redes Sociales </h5>
+				<a href="https://www.facebook.com/merostore94/"><img width="60" height="60" src="themes/images/facebook.png" title="facebook" alt="facebook"/></a>
+				<a href="https://www.instagram.com/merostorehn/"><img width="60" height="60" src="themes/images/i.jpeg" title="twitter" alt="instagram"/></a>
+			
 			 </div> 
 		 </div>
-		<p class="pull-right">&copy; Bootshop</p>
+		<p class="pull-right">&copy; Mero Store HN</p>
 	</div><!-- Container End -->
 	</div>
 <!-- Placed at the end of the document so the pages load faster ============================================= -->
@@ -374,7 +364,7 @@
 	<script src="themes/js/bootshop.js"></script>
     <script src="themes/js/jquery.lightbox-0.5.js"></script>
 	
-	<!-- Themes switcher section ============================================================================================= -->
+	<!-- Themes switcher section ============================================================================================= 
 <div id="secectionBox">
 <link rel="stylesheet" href="themes/switch/themeswitch.css" type="text/css" media="screen" />
 <script src="themes/switch/theamswitcher.js" type="text/javascript" charset="utf-8"></script>
@@ -427,7 +417,7 @@
 		 
 	</div>
 	</div>
-</div>
+</div>-->
 <span id="themesBtn"></span>
 </body>
 </html>

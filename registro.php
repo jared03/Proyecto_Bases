@@ -1,4 +1,5 @@
 <?php
+	//31928769
 	error_reporting(E_ALL ^ E_NOTICE);
 	require 'incl/db.php';
 	session_start();
@@ -90,6 +91,8 @@
         echo '<script type="text/javascript">alert("Correo electronico ya en uso, porfavor ingresa otro");</script>';
         die();
     }
+		
+    
     
     
    

@@ -1,4 +1,5 @@
 <?php
+	//http://www.shotdev.com/php/php-oracle/php-oracle-oci8-and-paging-pagination/
 	require 'incl/db.php';
 	session_start();
 
